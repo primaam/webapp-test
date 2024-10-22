@@ -1,0 +1,44 @@
+{"data":
+    [
+        {
+            "id": 1,
+            "name": "Agus",
+            "age" : 20
+        },
+        {
+            "id": 2,
+            "name": "Rizky",
+            "age" : 20
+        },
+        {
+            "id": 3,
+            "name": "Agung",
+            "age" : 25
+        },
+        {
+            "id": 4,
+            "name": "Doni",
+            "age" : 20
+        },
+        {
+            "id": 5,
+            "name": "John",
+            "age" : 21
+        },
+        {
+            "id": 6,
+            "name": "Thom",
+            "age" : 40
+        },
+        {
+            "id": 7,
+            "name": "Justin",
+            "age" : 19
+        },
+        {
+            "id": 8,
+            "name": "Jay",
+            "age" : 30
+        }
+    ]
+}

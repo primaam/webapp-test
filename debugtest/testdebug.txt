@@ -1,0 +1,51 @@
+1. perbaikan rawData
+
+- line 23, hilangnya koma(,) dalam penulisan JSON object
+    perbaikan:
+    {
+      "attribute": "case.CountryOfContract",
+      "valueAsString": "1f087fa1-4b87-485e-88f5-de581e9440b7"
+    },
+    {
+      "attribute": "case.ClientPresent",
+      "valueAsString": "fc7610f9-7c80-4182-b815-a82bff28524c"
+    },
+
+- line 429, hilangnya tanda untuk menunjukan string ("")
+    perbaikan:
+    {
+      "attribute": "case.life[0].product[0].benefit[10].amount",
+      "valueAsString": 65000000
+    },
+    {
+      "attribute": "case.life[0].product[0].benefit[11].amount",
+      "valueAsString": 65000000
+    },
+
+- line 438, hilangnya data valueAsString
+    perbaikan:
+    {
+      "attribute": "case.life[0].product[0].benefit[12].amount",
+      "valueAsString": 65000000
+    },
+
+2. perbaikan function compareDeep2
+
+- line 528, mengganti attributes dengan attribute (tanpa s)
+    perbaikan: 
+    var tmpStra = a.attribute;
+    var tmpStrb = b.attribute;
+
+- line 541, hilangnya i atau index pada loop dan perubahan deklarasi variabel
+    perbaikan:
+    var aIndex = parseInt(cleanA[i].slice(1, cleanA[i].length));
+    var bIndex = parseInt(cleanB[i].slice(1, cleanB[i].length));
+
+    if (aIndex < bIndex)
+      return -1;
+    if (aIndex > bIndex)
+      return 1;
+
+- line 559, penambahan variable yang dibutuhkan pada fungsi compare
+    perbaikan:
+    return compare(tmpIgA, tmpIgB);

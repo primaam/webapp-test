@@ -1,34 +1,4 @@
-#form{
-    border: 1px solid black;
-    width: 400px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-}
 
-#form input{
-    height: 40px;
-    padding: 0 10px;
-    border-radius: 5px;
-}
-
-#form button{
-    height: 40px;
-    padding: 0 10px;
-    border-radius: 5px;
-    background-color: lightblue;
-    font-size: medium;
-    font-weight: 700;
-}
-
-#form button:hover{
-    background-color: gray;
-    color: white;
-}
 
 #welcome-card{
     border: 1px solid black;

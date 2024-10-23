@@ -24,6 +24,9 @@ const Hashing = () => {
             return console.log("wrong input");
         }
         try {
+            const replaceDate = formData.date.replaceAll("-", "");
+            setFormData({ ...formData, date: replaceDate });
+
             const str = JSON.stringify(formData);
             console.log(sha256(str));
         } catch (error) {
